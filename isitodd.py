@@ -1,4 +1,5 @@
 num = input("Please type an integer: ")
+num = int(num)
 if num%4 == 0:
     print ("Your number is multiple of four.")
 elif num%2 ==0:
